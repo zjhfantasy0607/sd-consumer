@@ -1,0 +1,16 @@
+appkey: '9SgbBe2ZO/+v4RTHT+yxtmP6HQsJwu8epRt5F6zvhZI='
+
+NSQLookupd:
+  host: localhost
+  port: 4161
+  topic: stabelDiffusion
+  channelName: sd_1
+
+StableDiffusion:
+  host: http://127.0.0.1
+  port: 7860
+
+MainServer:
+  host: http://127.0.0.1
+  ws: ws://127.0.0.1
+  port: 8080

@@ -1,0 +1,21 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "golang",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/main.go", // 替换为你的入口文件
+            "env": {
+                "GIN_MODE": "debug" // 设置环境变量为开发模式
+            },
+            "args": [], // 如果有启动参数可以在这里添加
+            "output": "${workspaceFolder}/debug/app.exe",  // 固定输出路径
+            "showLog": true,
+        }
+    ]
+}
