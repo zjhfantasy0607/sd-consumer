@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"stable-custom/util"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/gorilla/websocket"
@@ -20,23 +21,11 @@ import (
 
 type MessageHandler struct{ Consumer *nsq.Consumer }
 
-var taskId string
-var globalConn *websocket.Conn // 全局 websocket 通道
-var httpClient *http.Client
-
-func init() {
-	// 创建带有连接池配置的 http.Transport
-	transport := &http.Transport{
-		MaxIdleConns:        100,
-		MaxIdleConnsPerHost: 50,
-		IdleConnTimeout:     90 * time.Second,
-	}
-
-	// 创建 http.Client 并指定自定义 Transport
-	httpClient = &http.Client{
-		Transport: transport,
-	}
-}
+var (
+	taskId     string
+	globalConn *websocket.Conn // 全局 websocket 通道
+	connMutex  sync.Mutex
+)
 
 func (h *MessageHandler) HandleMessage(m *nsq.Message) error {
 	var err error
@@ -81,6 +70,9 @@ func createGlobalConn() {
 
 		conn.SetReadDeadline(time.Now().Add(ReadTimeout))
 		conn.SetPingHandler(func(appData string) error {
+			connMutex.Lock()
+			defer connMutex.Unlock()
+
 			conn.SetReadDeadline(time.Now().Add(ReadTimeout))
 			// 发送 pong 消息
 			err := conn.WriteMessage(websocket.PongMessage, []byte(appData))
@@ -95,6 +87,9 @@ func createGlobalConn() {
 
 		// 设置关闭处理器
 		conn.SetCloseHandler(func(code int, text string) error {
+			connMutex.Lock()
+			defer connMutex.Unlock()
+
 			// 回复关闭消息
 			conn.WriteMessage(websocket.CloseMessage, websocket.FormatCloseMessage(websocket.CloseNormalClosure, ""))
 			closeGlobalConn()
@@ -123,6 +118,8 @@ func closeGlobalConn() {
 
 // 使用 socket 通道传递 sdapi 的响应内容
 func writeJson(api string, status int, body string) error {
+	connMutex.Lock()
+	defer connMutex.Unlock()
 
 	if globalConn == nil {
 		createGlobalConn()
@@ -161,6 +158,9 @@ func callSdApi(api string, params string) error {
 		}
 	}()
 
+	// 使用默认客户端发送请求
+	client := &http.Client{}
+
 	// 创建新的POST请求
 	url := ApiHost(api)
 	req, err := http.NewRequest("POST", url, bytes.NewBuffer([]byte(params)))
@@ -172,7 +172,7 @@ func callSdApi(api string, params string) error {
 	req.Header.Set("Content-Type", "application/json")
 
 	// 使用HTTP客户端发送请求
-	resp, err := httpClient.Do(req)
+	resp, err := client.Do(req)
 	if err != nil {
 		// socket 错误场景返回错误
 		writeJson(api, 509, string("stable diffusion server error"))
@@ -194,20 +194,9 @@ func callSdApi(api string, params string) error {
 
 func progress() error {
 	url := ApiHost("sdapi/v1/progress")
-
-	// 创建新的GET请求
-	req, err := http.NewRequest("GET", url, nil)
+	resp, err := http.Get(url)
 	if err != nil {
-		return errors.WithStack(err)
-	}
-
-	// 设置请求头
-	req.Header.Set("Content-Type", "application/json")
-
-	// 使用HTTP客户端发送请求
-	resp, err := httpClient.Do(req)
-	if err != nil {
-		return errors.WithStack(err)
+		return err
 	}
 	defer resp.Body.Close()
 
@@ -221,18 +210,6 @@ func progress() error {
 
 	// socket 发送信息
 	writeJson("sdapi/v1/progress", resp.StatusCode, gProgress.String())
-
-	return nil
-}
-
-// 修改 stable diffusion 主配置
-func Options(options string) error {
-	req, err := http.NewRequest("POST", ApiHost("sdapi/v1/options"), bytes.NewBuffer([]byte(options)))
-	req.Header.Set("Content-Type", "application/json")
-	httpClient.Do(req)
-	if err != nil {
-		return errors.WithStack(err)
-	}
 
 	return nil
 }

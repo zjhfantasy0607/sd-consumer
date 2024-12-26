@@ -1,7 +1,7 @@
 appkey: '9SgbBe2ZO/+v4RTHT+yxtmP6HQsJwu8epRt5F6zvhZI='
 
 NSQLookupd:
-  host: localhost
+  host: http://127.0.0.1
   port: 4161
   topic: stabelDiffusion
   channelName: sd_1

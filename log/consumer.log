@@ -1,0 +1,359 @@
+2024/12/24 16:56:43 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:44 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:45 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:46 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:47 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:48 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:49 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:50 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:51 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:52 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:53 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:54 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:55 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:56 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:57 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:58 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:56:59 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:00 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:01 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:02 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:03 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:04 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:05 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:06 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:07 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:08 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:09 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:10 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:11 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:12 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:13 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:14 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:15 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:16 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:17 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:18 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:19 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:20 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:21 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:22 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:23 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:24 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:25 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:26 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:57:27 
+Error: Get "http://127.0.0.1:7860/sdapi/v1/progress": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:149
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:58:12 
+Error: Post "http://127.0.0.1:7860/sdapi/v1/txt2img": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:173
+stable-custom/handlers.(*MessageHandler).HandleMessage
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:51
+github.com/nsqio/go-nsq.(*Consumer).handlerLoop
+	C:/Users/yu/go/pkg/mod/github.com/nsqio/go-nsq@v1.1.0/consumer.go:1146
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:58:45 
+Error: Post "http://127.0.0.1:7860/sdapi/v1/txt2img": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:173
+stable-custom/handlers.(*MessageHandler).HandleMessage
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:51
+github.com/nsqio/go-nsq.(*Consumer).handlerLoop
+	C:/Users/yu/go/pkg/mod/github.com/nsqio/go-nsq@v1.1.0/consumer.go:1146
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 19:32:42 
+Error: Post "http://127.0.0.1:7860/sdapi/v1/txt2img": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:179
+stable-custom/handlers.(*MessageHandler).HandleMessage
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:51
+github.com/nsqio/go-nsq.(*Consumer).handlerLoop
+	C:/Users/yu/go/pkg/mod/github.com/nsqio/go-nsq@v1.1.0/consumer.go:1146
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 19:32:42 
+Error: Post "http://127.0.0.1:7860/sdapi/v1/txt2img": dial tcp 127.0.0.1:7860: connectex: No connection could be made because the target machine actively refused it.
+stable-custom/handlers.callSdApi
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:179
+stable-custom/handlers.(*MessageHandler).HandleMessage
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:51
+github.com/nsqio/go-nsq.(*Consumer).handlerLoop
+	C:/Users/yu/go/pkg/mod/github.com/nsqio/go-nsq@v1.1.0/consumer.go:1146
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+

@@ -1,7 +1,7 @@
 appkey: '9SgbBe2ZO/+v4RTHT+yxtmP6HQsJwu8epRt5F6zvhZI='
 
 NSQLookupd:
-  host: http://127.0.0.1
+  host: ec2-15-152-33-37.ap-northeast-3.compute.amazonaws.com
   port: 4161
   topic: stabelDiffusion
   channelName: sd_1
@@ -11,6 +11,6 @@ StableDiffusion:
   port: 7860
 
 MainServer:
-  host: http://127.0.0.1
-  ws: ws://127.0.0.1
+  host: http://ec2-15-168-9-3.ap-northeast-3.compute.amazonaws.com
+  ws: ws://ec2-15-168-9-3.ap-northeast-3.compute.amazonaws.com
   port: 8080

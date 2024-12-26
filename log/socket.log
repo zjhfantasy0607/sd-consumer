@@ -1,2 +1,92 @@
 
 
+2024/12/24 14:14:56 
+Error: 连接 WebSocket 服务端失败: read tcp 10.0.236.10:57102->13.208.252.197:8080: i/o timeout
+stable-custom/handlers.NewWSClient
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/WebSocket.go:20
+stable-custom/handlers.createGlobalConn
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:66
+stable-custom/handlers.writeJson
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:122
+stable-custom/handlers.progress
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:209
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:151
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 14:22:40 
+Error: 连接 WebSocket 服务端失败: read tcp 10.0.236.10:57450->13.208.252.197:8080: i/o timeout
+stable-custom/handlers.NewWSClient
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/WebSocket.go:20
+stable-custom/handlers.createGlobalConn
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:66
+stable-custom/handlers.writeJson
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:122
+stable-custom/handlers.progress
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:209
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:151
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:42:27 
+Error: 连接 WebSocket 服务端失败: read tcp 10.0.236.10:59098->13.208.252.197:8080: i/o timeout
+stable-custom/handlers.NewWSClient
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/WebSocket.go:20
+stable-custom/handlers.createGlobalConn
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:66
+stable-custom/handlers.writeJson
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:122
+stable-custom/handlers.progress
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:209
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:151
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:44:31 
+Error: 连接 WebSocket 服务端失败: read tcp 10.0.236.10:59228->13.208.252.197:8080: i/o timeout
+stable-custom/handlers.NewWSClient
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/WebSocket.go:20
+stable-custom/handlers.createGlobalConn
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:66
+stable-custom/handlers.writeJson
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:119
+stable-custom/handlers.progress
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:206
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:148
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:45:36 
+Error: 连接 WebSocket 服务端失败: read tcp 10.0.236.10:59388->13.208.252.197:8080: i/o timeout
+stable-custom/handlers.NewWSClient
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/WebSocket.go:20
+stable-custom/handlers.createGlobalConn
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:66
+stable-custom/handlers.writeJson
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:119
+stable-custom/handlers.progress
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:206
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:148
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
+2024/12/24 16:48:45 
+Error: 连接 WebSocket 服务端失败: read tcp 10.0.236.10:59692->13.208.252.197:8080: i/o timeout
+stable-custom/handlers.NewWSClient
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/WebSocket.go:20
+stable-custom/handlers.createGlobalConn
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:66
+stable-custom/handlers.writeJson
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:119
+stable-custom/handlers.progress
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:206
+stable-custom/handlers.callSdApi.func1
+	C:/Users/yu/Desktop/jugg-tool-box/sd-consumer/handlers/handler.go:148
+runtime.goexit
+	C:/Program Files/Go/src/runtime/asm_amd64.s:1695
+
